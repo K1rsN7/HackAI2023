@@ -19,10 +19,10 @@ def replace_function(line):
     return line
 
 
-path = 'C:\\Users\\k1rsn\Desktop\\Перечень неисправностей.txt'  # Путь к файлу
+path = 'Перечень неисправностей.txt'  # Путь к файлу
 flag_malfunction = True  # Флаг на пункт таблицы
 flag_skip = False  # Пропустить следующую строку, реализовано для пропуска "Вероятная причина"
-file_new = io.open('C:\\Users\\k1rsn\Desktop\\info.txt', 'w', encoding='utf-8')  # Открытие файла для записи
+file_new = io.open('info.txt', 'w', encoding='utf-8')  # Открытие файла для записи
 with io.open(path, encoding='utf-8') as file:
     for line in file:  # Чтение файла по строчно
         line = replace_function(line)  # Обработка строки
@@ -52,7 +52,7 @@ with io.open(path, encoding='utf-8') as file:
 data = []  # Массив с данными
 key = ''  # Активационной фраза
 answers = ''  # Решение неисправности
-with io.open('C:\\Users\\k1rsn\Desktop\\info.txt', 'r', encoding='utf-8') as file:
+with io.open('info.txt', 'r', encoding='utf-8') as file:
     for line in file:
         if line[0:5] == 'key: ':  # Проверка на активационную фразу
             data.append({'key': str(key[5:-1]).lower(), 'answers': str(answers).lower()})
@@ -63,5 +63,5 @@ with io.open('C:\\Users\\k1rsn\Desktop\\info.txt', 'r', encoding='utf-8') as fil
 df = pd.DataFrame(data=data)  # Формирование датафрейма
 df = df.iloc[1:, :]  # Убирание первой строки данных
 df = df.groupby(['key'], as_index=False).agg({'answers': ' или '.join})
-df.to_csv(r'C:\\Users\\k1rsn\Desktop\\data.csv', index=False)  # Запись в csv
-df.to_json(r'C:\\Users\\k1rsn\Desktop\\data.json', orient='records')
+df.to_csv(r'data.csv', index=False)  # Запись в csv
+df.to_json(r'data.json', orient='records')
