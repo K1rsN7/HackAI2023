@@ -1,17 +1,19 @@
-Системные требования:
+<div align='center'><h2>All-Russian hackathon "Digital Breakthrough. Season: Artificial Intelligence" (2023)
+Case: Intelligent voice assistant for drivers</h2></div>
+
+Computer configuration on which everything worked:
   1. OC: Windows 10/11
   2. Pycharm 2022.01.01
   3. Python 3.10
-  4. ОЗУ 8 гб
- 
+  4. RAM 8 gb
 
-Инструкция по использованию:
-1. Распаковываем архив с файлам и из репозитория в любое удобное место на вашем компьютере
-2. Открываем папку с файлами в удобной для вас среде (в нашем случае Pycharm)
-3. Находим файл main.py и компилируем его  
-3. После компиляции сказать активационную фразу "привет аня" и дождаться обработку помощником вашей речи. Если фраза была сказана правильно, Вы услышите уведомление.
-4. Следующим этапом вам нужно назвать неисправность. После обработки, помощник озвучит решение вашей пролемы.
+Instructions for use:
+1. Unzip the archive with the files and from the repository to any convenient place on your computer
+2. Open the folder with the files in a convenient environment for you (in our case Pycharm)
+3. find the main.py file and compile it  
+3. After compilation, say the activation phrase "Hello Anya" and wait for the assistant to process your speech. If the phrase was said correctly, you will hear a notification.
+4. The next step is for you to state the fault. After processing, the assistant will voice the solution to your problem.
 
-Если по каким-то причинам не срабатывает фраза активации, зажмите кнопку "ALT" и ждите, пока модель пропустит данный этап. Затем смотри пункт 4.
+If for some reason the activation phrase does not work, press the "ALT" button and wait for the model to skip this step. Then see step 4.
 
-**Важное замечание:** ассистент не воспринимает числа больше 9. Поэтому, например, число 43 проговаривать как "четыре три".
+**Important Note:** The Assistant does not recognize numbers greater than 9. Therefore, for example, the number 43 should be pronounced as "four three" and we accept only Russian speech.
