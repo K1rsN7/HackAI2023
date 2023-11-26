@@ -17,3 +17,5 @@ Instructions for use:
 If for some reason the activation phrase does not work, press the "ALT" button and wait for the model to skip this step. Then see step 4.
 
 **Important Note:** The Assistant does not recognize numbers greater than 9. Therefore, for example, the number 43 should be pronounced as "four three" and we accept only Russian speech.
+<h2>Result:</h2>
+<img height ="50%"  src="./result_image.png" />
