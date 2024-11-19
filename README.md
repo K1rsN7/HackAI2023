@@ -1,21 +1,36 @@
-<div align='center'><h2>All-Russian hackathon "Digital Breakthrough. Season: Artificial Intelligence" (2023)
-Case: Intelligent voice assistant for drivers</h2></div>
-
-Computer configuration on which everything worked:
-  1. OC: Windows 10/11
-  2. Pycharm 2022.01.01
-  3. Python 3.10
-  4. RAM 8 gb
-
-Instructions for use:
-1. Unzip the archive with the files and from the repository to any convenient place on your computer
-2. Open the folder with the files in a convenient environment for you (in our case Pycharm)
-3. find the main.py file and compile it  
-3. After compilation, say the activation phrase "Hello Anya" and wait for the assistant to process your speech. If the phrase was said correctly, you will hear a notification.
-4. The next step is for you to state the fault. After processing, the assistant will voice the solution to your problem.
-
-If for some reason the activation phrase does not work, press the "ALT" button and wait for the model to skip this step. Then see step 4.
-
-**Important Note:** The Assistant does not recognize numbers greater than 9. Therefore, for example, the number 43 should be pronounced as "four three" and we accept only Russian speech.
-<h2>Result:</h2>
-<img height ="50%"  src="./result_image.png" />
+<div align='center'>
+    <h2>All-Russian hackathon "Digital Breakthrough. Season: Artificial Intelligence" (2023)<br>Case: Intelligent voice assistant for drivers</h2>
+</div>
+<div align="center">
+  <a href="https://github.com/K1rsN7/HackAI2023/issues">
+		<img src="https://img.shields.io/github/issues/K1rsN7/HackAI2023?color=4A73DF&labelColor=1C2325&style=for-the-badge">
+	</a>
+	<a href="https://github.com/K1rsN7/HackAI2023/stargazers">
+		<img src="https://img.shields.io/github/stars/K1rsN7/HackAI2023?color=4A73DF&labelColor=1C2325&style=for-the-badge">
+	</a>
+	<a href="./LICENSE">
+		<img src="https://img.shields.io/badge/Licence-CC%20BY--NC%204.0-4A73DF?style=for-the-badge&labelColor=1C2325" alt="Лицензия CC BY-NC 4.0">
+	</a>
+</div>
+<br>
+    <p align="center">Computer configuration on which everything worked:</p>
+    <ul>
+        <li>OC: Windows 10/11</li>
+        <li>Pycharm 2022.01.01</li>
+        <li>Python 3.10</li>
+        <li>RAM 8 gb</li>
+    </ul>
+    <p align="center">Instructions for use:</p>
+    <ol>
+        <li>Unzip the archive with the files and from the repository to any convenient place on your computer.</li>
+        <li>Open the folder with the files in a convenient environment for you (in our case Pycharm).</li>
+        <li>Find the main.py file and compile it.</li>
+        <li>After compilation, say the activation phrase "Hello Anya" and wait for the assistant to process your speech. If the phrase was said correctly, you will hear a notification.</li>
+        <li>The next step is for you to state the fault. After processing, the assistant will voice the solution to your problem.</li>
+    </ol>
+    <p align="center">If for some reason the activation phrase does not work, press the "ALT" button and wait for the model to skip this step. Then see step 4.</p>
+    <strong >Important Note:</strong> The Assistant does not recognize numbers greater than 9. Therefore, for example, the number 43 should be pronounced as "four three" and we accept only Russian speech.
+<h2 align='center'>Result</h2>
+<div align='center'>
+    <img height="50%" src="./result_image.png" alt="Result Image" />
+</div>
